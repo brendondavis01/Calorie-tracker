@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enhanced Meal Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Enhanced Meal Tracker</h1>
+        
+        <form id="meal-form">
+            <label for="meal-name">Meal Name:</label>
+            <input type="text" id="meal-name" placeholder="e.g. Chicken Salad" required>
+
+            <label for="calories">Calories:</label>
+            <input type="number" id="calories" placeholder="e.g. 350">
+
+            <button type="submit">Add Meal</button>
+        </form>
+
+        <h2>Meals Today</h2>
+        <ul id="meal-list"></ul>
+
+        <h3>Total Calories: <span id="total-calories">0</span> kcal</h3>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
